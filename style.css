@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@700&family=Roboto+Condensed:ital,wght@1,200&display=swap'); /*importing fonts from Google Fonts*/
+*{margin: 0px; padding: 0px;} /*default margin and adding for all elements*/
+/*styling for navigation bar*/
+.navbar{top: 0; position: fixed; padding: 10px; height: 7vh; width: 100vw; background-color: #003249;}
+.navbar ul{list-style: none; background-color:#003249}
+.navbar ul li{display: inline-block; position:relative; float: right;}
+.navbar li a{display: block; font-family: 'Nunito'; background-color: #003249; border-radius: 5px; padding:2vh; float: right; text-decoration: none; color:#FFFFFF;}
+.navbar ul li ul.dropdown li{display: block; width: 100%;} /*styling for the dropdown*/
+.navbar ul li ul.dropdown{z-index:1; background: #003249; position: absolute; display: none;} /*styling for the dropdown*/
+.navbar ul li a:hover{background: #002333;}
+.navbar ul li:hover ul.dropdown{display: block; position: absolute; top: 100%; left:0; } /*styling for the dropdown*/
+.navbar #links #r{margin-right: 10vh;}
+.navbar #links :hover{background-color: #002333;}
+
+.logo img{ border: 2px solid: black; margin top: -.5vh; border-radius: 350px; margin-left: 10vh; height: 40px;} /*styling for the logo image within the navigation bar*/
+
+/*styling for footer*/
+.footer{position: fixed; bottom:0; height: 10%; width: 100%; background-color: #F1F1F1; text-align: left;}
+.footer p{font-family: 'Roboto Condensed'; color: black; padding-left: 25px; font-size: 15px; margin-top: 30px; margin-bottom: -70px;} /*styling for the copyright information*/
+.footer .footerlinks a{text-decoration: none; float:right;} /*styling for the links in the footer*/
+.footer .footerlinks img{height: 5vh; border-radius: 360px; margin-right: 2.5px; margin-top: 40px;}
+.footer .footerlinks .fb{margin-right: 25px;}
+
+/*styling for the elements in the index.html*/
+.banner {background-image: url(Home.png); padding: 1.5vw; background-color: antiquewhite; height: 95vh; width: 95vw; background-position: center; background-repeat: no-repeat;} /*styling for the background image*/
+.banner h1{font-family:'Montserrat'; color:black; font-size: 4em; margin-top: 1.8em; margin-left: 1em; margin-right: 1em;} /*styling for the title*/
+.banner p{ font-family: 'Montserrat'; color:black; margin-left: 4em; margin-right: 3em;} /*styling for the subtitle*/
+.banner #data {font-family: 'Nunito'; background-color: #007EA7; border-radius: 5px; padding:5px; text-decoration: none; color:#FFFFFF; margin-left: 4em;} /*styling for the link to the data page*/
+
+/*styling for the elements in the page1.html*/
+.banner2{margin-left: 1em; margin-right: 1em;} /*styling for the banner2*/
+.banner2 h1{font-family:'Montserrat'; color:black; font-size: 4em; margin-top: 1em; text-align: center;} /*styling for the texts*/
+.banner2 h2{font-family:'Montserrat'; color:black; font-size: 2em;} /*styling for the texts*/
+.banner2 h3{font-family:'Montserrat'; color:black; font-size: 1em;} /*styling for the texts*/
+.banner2 p{font-family:'Montserrat'; color:black; font-size: 1em; text-align: justify;} /*styling for the texts*/
+.school{margin-bottom: 5em;} /*styling for the school variable informations*/
+.ql1{text-align:left; margin-top: 0.5em;} /*styling for the school variable informations*/
+.school img{float:left ;width: 50%; margin-left: 20px; margin-bottom: 10px; border-radius: 5px;} /*styling for the school variable informations*/
+.desc1 p{float:right; display: inline-block; margin-left: 53%; margin-top: -40em;} /*styling for the school variable informations*/
+.glevel img{float:left ;width: 50%; margin-left: 20px; margin-bottom: 10px; border-radius: 5px;} /*styling for the grade level variable informations*/
+.ql2{margin-top: 23em; text-align: left;}  /*styling for the grade level variable informations*/
+.desc2 p{float:right; display: inline-block; margin-left: 53%; margin-top: -25em;} /*styling for the grade level variable informations*/
+.qnv{margin-top: 15em;} /*styling for the quantitative variables*/
+.ql3{text-align:left; margin-top: 0.5em;} /*styling for the final average grade variable informations*/
+.images3 .table1 {display: block; margin:0 auto; width:70%;} /*styling for the final average grade variable informations*/
+.images3 .dctv1 {margin-right: 50%; margin-top:20px; width: 50%; float: left;} /*styling for the final average grade variable informations*/
+.images3 .hg1 {margin-right: 50%; margin-top:20px; width: 50%; float: left;} /*styling for the final average grade variable informations*/
+.images3 .plot1 {margin-right: 50%; margin-top:20px; width: 50%; float: left;} /*styling for the final average grade variable informations*/
+.desc3 {float:right; display: inline-block; margin-left: 53%; margin-top: -65em;} /*styling for the final average grade variable informations*/
+.desc4 {float:right; display: inline-block; margin-left: 53%; margin-top: -35em;} /*styling for the final average grade variable informations*/
+.desc5 {float:right; display: inline-block; margin-left: 53%; margin-top: -14em;}/*styling for the final average grade variable informations*/
+.ql4{text-align:left; margin-top: 35.5em;} /*styling for the study hours variable informations*/
+.images4 .table2 {display: block; margin:0 auto; width:70%;} /*styling for the study hours variable informations*/
+.images4 .dctv2 {margin-right: 50%; margin-top:20px; width: 50%; float: left;} /*styling for the study hours variable informations*/
+.images4 .hg2 {margin-right: 50%; margin-top:20px; width: 50%; float: left;} /*styling for the study hours variable informations*/
+.images4 .plot2 {margin-right: 50%; margin-top:20px; width: 50%; float: left;} /*styling for the study hours variable informations*/
+.desc6 {float:right; display: inline-block; margin-left: 53%; margin-top: -75em;} /*styling for the study hours variable informations*/
+.desc7 {float:right; display: inline-block; margin-left: 53%; margin-top: -45em;} /*styling for the study hours variable informations*/
+.desc8 {float:right; display: inline-block; margin-left: 53%; margin-top: -15em;} /*styling for the study hours variable informations*/
+.summary {margin-top: 40.5em;} /*styling for the conclusion*/
+#conclusion p{margin-bottom: 100px;} /*styling for the conclusion*/
+
+/*styling for the elements in the page2.html*/
+.banner3{margin-left: 1em; margin-right: 1em; text-align: left;} /*styling for banner3*/
+.banner3 h1{font-family:'Montserrat'; color:black; font-size: 4em; margin-top: 1em; text-align: center;} /*styling for the header*/
+.banner3 table{margin-left: 5px; margin-right: 5px; width: 100%; border: 2px solid black;} /*styling for the data table*/
+.banner3 h2{font-family: 'Montserrat'; margin-right: 0.5em; font-size: 1em; text-align: center;}
+.banner3 th{top: 0px; background-color: #007EA7; border: 2px solid #000000;} /*styling for the data table*/
+.banner3 tr{font-family: 'Nunito'; height: 20px;}
+.banner3 td:nth-child(4) {text-align: right; padding-right: 20px;} /*styling for the data table*/
+.banner3 td:nth-child(3) {text-align: right; padding-right: 20px;} /*styling for the data table*/
+.banner3 td:nth-child(5) {text-align: right; padding-right: 20px;} /*styling for the data table*/
+.banner3 tr:hover {background-color: #D6EEEE;}
+
+/*styling for the elements in the page3.html*/
+.ubri{display: block; margin-left:50px; margin-top: 115px;} 
+.ubri img{border-radius: 360px; width: 150px;} /*styling for aubrey's pic*/
+.ubri .ubricontact {font-family: 'Montserrat'; margin-left: 180px; margin-top: -140px;} /*styling for aubrey's contact info*/
+.myra{display: block; margin-left:65%; margin-top: -27em;}
+.myra img{border-radius: 360px; width: 150px;} /*styling for myra's pic*/
+.myra .myracontact {font-family: 'Montserrat'; margin-left: 180px; margin-top: -140px;} /*styling for myra's contact info*/
+.sara{display: block; margin-left:65%; margin-top: 115px;}
+.sara img{border-radius: 360px; width: 150px;} /*styling for sara's pic*/
+.sara .saracontact {font-family: 'Montserrat'; margin-left: 180px; margin-top: -140px;} /*styling for sara's contact info*/
+.ubricontact #uvri {font-family: 'Nunito'; background-color: #007EA7; border-radius: 5px; padding:5px; text-decoration: none; color:#FFFFFF;} /*styling for the link to the github profile*/
+.myracontact #myruh {font-family: 'Nunito'; background-color: #007EA7; border-radius: 5px; padding:5px; text-decoration: none; color:#FFFFFF;} /*styling for the link to the github profile*/
+.saracontact #saruh {font-family: 'Nunito'; background-color: #007EA7; border-radius: 5px; padding:5px; text-decoration: none; color:#FFFFFF;} /*styling for the link to the github profile*/
+.facts {margin-left: 3em; margin-top: 5em; font-family: 'Montserrat';} /*styling for the list of infos about aubrey*/
+.facts h2 {font-family: 'Montserrat'; margin-bottom: 0.5em;} /*styling for the list of infos about aubrey*/
+.facts li{list-style:circle;} /*styling for the list of infos about aubrey*/
+
+/*styling for the elements in the page4.html*/
+.banner5{margin-left: 1em; margin-right: 1em;} /*styling for banner5*/
+.banner5 h1{font-family:'Montserrat'; color:black; font-size: 4em; margin-top: 1em; text-align: center;} /*styling for the title*/
+.banner5 p{font-family:'Montserrat'; color:black; font-size: 1.5em; text-align: justify; margin-top: 1em;} /*styling for the paragraph*/
+.banner5 #survey{text-decoration: none; color:#007EA7;} /*styling for the link to the google forms*/
